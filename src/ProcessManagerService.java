@@ -688,6 +688,8 @@ public class ProcessManagerService {
 		System.out.println(pms.findHistoricTaskInstanceFinishedOrNot("gongdianju", true).size());
 		System.out.println(pms.findHistoricTaskInstanceFinishedOrNot("gongdianju", false).size());
 		System.out.println(pms.historyService.createHistoricProcessInstanceQuery().list().size());
+		
+	   // 2018-01-08
 	}
 
 }
